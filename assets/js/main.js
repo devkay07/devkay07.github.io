@@ -119,7 +119,9 @@
 					target: $body,
 					visibleClass: 'header-visible'
 				});
+		//footer
+			document.getElementById("year").innerHTML = new Date().getFullYear();
 
 })(jQuery);
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+
